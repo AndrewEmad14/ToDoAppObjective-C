@@ -43,6 +43,7 @@
 
     
     _taskReloadArrayTodo=[self reloadDataDefaultsWithType:@"ToDo"];
+    NSLog(@"trying out git hub");
 }
 - (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText{
     NSMutableArray *temp=[NSMutableArray new];
